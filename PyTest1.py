@@ -10,6 +10,8 @@
 
 import math
 from math import factorial
+from tokenize import String
+from typing import FrozenSet
 
 # print(factorial(10))
 
@@ -163,13 +165,13 @@ AlphabetString = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 #shar
 
-NumericString = '2,0.5874,-.23,0,1,25.358,39,100,358.1,5.0'
-Num = NumericString.rsplit(sep=',')
-a = 0
-for i in Num:
-    i = float(i)
-    a = a + i
-print(a)
+# NumericString = '2,0.5874,-.23,0,1,25.358,39,100,358.1,5.0'
+# Num = NumericString.rsplit(sep=',')
+# a = 0
+# for i in Num:
+#     i = float(i)
+#     a = a + i
+# print(a)
 
 
 
