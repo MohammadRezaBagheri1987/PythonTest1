@@ -161,6 +161,8 @@ AlphabetString = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 # KeyList = list(a.items())
 # print(KeyList)
 
+#shar
+
 NumericString = '2,0.5874,-.23,0,1,25.358,39,100,358.1,5.0'
 Num = NumericString.rsplit(sep=',')
 a = 0
@@ -181,6 +183,11 @@ print(a)
 # for i in NumList:
 #     a = a + i
 # print(i)
+
+#asdfb;lsfhdlk;segkbdsbpoaeds
+
+
+
 
 
 
