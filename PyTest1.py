@@ -189,6 +189,33 @@ AlphabetString = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 #asdfb;lsfhdlk;segkbdsbpoaeds
 
 
+string = ('Technology is changing rapidly, and innovations are transforming our daily lives.'
+          ' Devices are more connected than ever,'
+          ' and the internet was once a luxury but is now a necessity.'
+          ' The world was simpler before smartphones, but today, they are essential tools.'
+          ' Software advancements are making processes faster, '
+          'and new developments were expected each year'
+          '. As technology evolves, so are the ways we communicate and interact.')
+
+a = ({'.'},{ },{','},{"'"})
+SignSets = set(a)
+# print(SignSets.intersection(String))
+
+
+SignSets = frozenset(SignSets)
+#mutable
+for word in String:
+    print(String.rsplit())
+
+
+
+
+
+
+
+
+
+
 
 
 
